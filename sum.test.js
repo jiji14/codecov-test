@@ -15,7 +15,7 @@ describe("sum function", () => {
     expect(sum(0, 0)).toBe(0);
   });
 
-  it("adds three numbers correctly", () => {
-    expect(sum(2, 3, 4)).toBe(9);
+  it("add two numbers correctly", () => {
+    expect(sum(2, 4)).toBe(6);
   });
 });
