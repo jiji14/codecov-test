@@ -14,4 +14,8 @@ describe("sum function", () => {
     expect(sum(0, -4)).toBe(-4);
     expect(sum(0, 0)).toBe(0);
   });
+
+  it("add two numbers correctly", () => {
+    expect(sum(2, 4)).toBe(6);
+  });
 });
