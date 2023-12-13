@@ -8,7 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run:
-        npm install prettier@3.0.3
-      - run:
-        npx prettier --check
+        npx prettier@3.0.3 prettier --check
       
