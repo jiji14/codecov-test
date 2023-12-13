@@ -1,0 +1,13 @@
+name: prettier
+on: 
+  pull_request:
+
+jobs:
+  run-prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run:
+        npm install prettier@3.0.3
+        npx prettier --check
+      
